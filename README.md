@@ -22,8 +22,8 @@ By default, the script answers “no” to all Microsoft's privacy questions abo
   - Secure boot
   - Processor generation checks
 - No need to log in to Microsoft account
-- It also bypasses the OOBE (Out-Of-Box Experience) so you can start using your Windows immediately, without having to connect to the Internet. 
-
+- This script bypasses the OOBE (Out-Of-Box Experience), allowing you to install Windows without needing an Internet connection
+  
 ## How to use it ⚙️
 
 1. **Download or clone this repository**.

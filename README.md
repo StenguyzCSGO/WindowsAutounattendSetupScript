@@ -4,6 +4,17 @@
 
 Welcome to the **WindowsAutounattendSetupScript**! 🎉 This PowerShell script is your trusty sidekick for creating a configuration file called `autounattend.xml`. This file lets you install Windows without having to answer annoying questions - because it's long, it's boring, and because time is money.
 
+Once the script runs, it adds the `autounattend.xml` file to the root of your bootable device. This file contains all the necessary settings for the Windows ISO, speeding up the formatting process. All you need to do is boot from your USB drive, and you'll land directly on your new Windows desktop, ready to go!
+
+
+## Before using the script, choose the best ISO 🛠️
+
+For the best experience, pair this script with the latest Windows ISO that includes all the recent updates. This will save you from the hassle of installing tons of updates via Windows Update right after formatting and reaching the new Windows setup.
+
+Check out [massgrave.dev](https://massgrave.dev/windows_11_links) to find the latest ISOs. Look for files named like `fr-fr_windows_11_consumer_editions_version_23h2_updated_oct_2024_x64_dvd_4728d672.iso`. The term "updated oct" indicates that the ISO includes Windows updates up to October.
+
+By using these updated ISO, you won't have to wait super long for Windows Update updates directly after formatting, (I know it's annoying and not logical so I'll drop it here). Because as always, time is money.
+
 ## Features 🌟
 
 With this script, you can choose:
